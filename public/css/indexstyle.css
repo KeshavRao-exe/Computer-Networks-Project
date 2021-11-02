@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    height: 100%;
+    overflow: hidden;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
+}
+
+input {
+    font-size: 14px;
+}
+
+body {
+    display: flex;
+    line-height: 1.4;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+h1 {
+    margin-bottom: 16px;
+}
+
+label {
+    
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family: 'ABeeZee', sans-serif;
+    padding: 15px;
+    color: white;
+}
+
+input {
+    border: 1px solid #eeeeee;
+    padding: 12px;
+    outline: none;
+}
+
+.wrapper .centered-form {
+    
+    margin-left: 410px;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.wrapper .centered-form-box {
+    
+    box-shadow: 0px 0px 17px 1px #1D1F26;
+    font-family: 'ABeeZee', sans-serif;
+    padding: 15px;
+    color: white;
+	border-radius: 25px;
+	background-color: rgba(0,0,0,0.1);
+	letter-spacing: 1px;
+    width: 380px;
+}
+
+.wrapper .centered-form button {
+    width: 100%;
+}
+
+.wrapper .centered-form input {
+
+    width: 100%;
+    border-radius: 25px;
+	background-color: rgba(0,0,0,0.1);
+	border:none;
+    outline: none;
+    color: white;
+	padding-left: 38px;
+	box-sizing: border-box;
+	font-size: 15px;
+	margin-bottom: 20px;
+	font-weight: bold;
+    transition: .3s linear;
+}
+
+.centered-form input:hover{
+
+    box-shadow: 2px 2px 5px #fff;
+	border-radius: 25px;
+	background-color: rgba(0,0,0,0.1);
+}
+
+button {
+    cursor: pointer;
+    padding: 12px;
+    background-color: rgba(0,0,0,0.1);
+	letter-spacing: 1px;
+	font-weight: bold;
+    border-radius: 50px;
+    color: white;
+    font-size: 16px;
+    transition:.5s ease;
+}
+
+button:hover {
+    box-shadow: 2px 2px 5px #fff;
+	border-radius: 25px;
+	background-color: rgba(0,0,0,0.1);
+    transform: scale(1.2);
+}
+
+button:disabled {
+    cursor: default;
+    background: #7c5cbf94;
+}
+
+footer{
+    display: block;
+    color: #fff;
+    padding: 80px 0;
+    align-items: center;
+    justify-content: center;
+    margin-left: 430px;
+}
+
+.copyright{
+    font-size:15px;
+    margin-bottom: 20px;
+}
+
+.copyright a{
+    
+    font-size: 16px;
+    color:#48dbfb;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.icon{
+    margin-left: 80px;
+}
+
+.sm a{
+
+    
+    color: white;
+    margin: 0 10px;
+    transition:  .2s linear;
+    text-decoration: none;
+}
+
+.sm a:hover{
+
+    color: #48dbfb;
+}
+
+#home .buttons{
+
+    margin-top: 60px;
+}
